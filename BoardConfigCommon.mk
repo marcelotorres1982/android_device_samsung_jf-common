@@ -31,7 +31,7 @@ BOARD_KERNEL_CMDLINE         := androidboot.hardware=qcom user_debug=31 zcache
 BOARD_KERNEL_BASE            := 0x80200000
 BOARD_MKBOOTIMG_ARGS         := --ramdisk_offset 0x02000000
 BOARD_KERNEL_PAGESIZE        := 2048
-TARGET_KERNEL_VARIANT_CONFIG := elite_kernel_defconfig
+TARGET_KERNEL_VARIANT_CONFIG := gummy_jf_defconfig
 TARGET_KERNEL_SELINUX_CONFIG := jfselinux_defconfig
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := Linaro-4.7
 
