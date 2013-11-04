@@ -52,11 +52,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     gps.msm8960
 
-ifeq ($(NEEDS_GPS_MSB_DISABLED),true)
-    GPS_CONF := device/samsung/jf-common/gps/gps-nomsb.conf
-else
-    GPS_CONF := device/samsung/jf-common/gps/gps.conf
-endif
+#ifeq ($(NEEDS_GPS_MSB_DISABLED),true)
+#    GPS_CONF := device/samsung/jf-common/gps/gps-nomsb.conf
+#else
+#    GPS_CONF := device/samsung/jf-common/gps/gps.conf
+#endif
 
 PRODUCT_COPY_FILES += \
     $(GPS_CONF):/system/etc/gps.conf
