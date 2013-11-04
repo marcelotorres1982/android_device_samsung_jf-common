@@ -58,8 +58,8 @@ PRODUCT_PACKAGES += \
 #    GPS_CONF := device/samsung/jf-common/gps/gps.conf
 #endif
 
-PRODUCT_COPY_FILES += \
-    $(GPS_CONF):/system/etc/gps.conf
+#PRODUCT_COPY_FILES += \
+#    $(GPS_CONF):/system/etc/gps.conf
 
 # Keylayouts
 PRODUCT_COPY_FILES += \
