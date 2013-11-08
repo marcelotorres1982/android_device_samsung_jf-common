@@ -82,12 +82,4 @@ BOARD_USES_SEPERATED_VOIP := true
 # Use seperate devices for 3-pole headset
 BOARD_USES_SEPERATED_HEADSET_MIC := true
 
-# SELinux
-BOARD_SEPOLICY_DIRS += \
-        device/samsung/jf-common/sepolicy
 
-# The list below is order dependent
-BOARD_SEPOLICY_UNION := \
-       device.te \
-       app.te \
-       file_contexts
